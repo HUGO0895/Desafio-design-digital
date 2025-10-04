@@ -161,19 +161,7 @@ ul li {
     font-size: 1.1rem;
 }
 
-ul li::before {
-    content: '▶';
-    color: #ff5722;
-    position: absolute;
-    left: 0;
-    animation: pulse 2s infinite;
-}
 
-@keyframes pulse {
-    0% { opacity: 0.7; }
-    50% { opacity: 1; }
-    100% { opacity: 0.7; }
-}
 
 .container figure {
     flex: 0 0 300px;
